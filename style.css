@@ -1,0 +1,313 @@
+body {
+  font-family: 'sarabun', sans-serif;
+  background-color: rgb(247, 249, 249);
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+  border-bottom: groove;
+  background-size: cover;
+  color: rgb(51, 0, 17);
+}
+
+header nav {
+  float: right;
+}
+
+.vre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vr {
+  border-right: 1px solid black;
+  height: 100px;
+  display: flex;
+}
+
+.search {
+  padding-bottom: 5px;
+}
+
+.headerlink {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.about {
+  height: 270vh;
+  display: flex;
+}
+
+.about-title {
+  width: 75%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.br {
+  font-size: 20px;
+  margin-left: 50px;
+  justify-content: center;
+  width="100%"
+}
+
+.side {
+  border-top: 1px;
+}
+
+.map {
+  color: black;
+}
+
+.tablea {
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.table:hover {
+  text-decoration: underline;
+}
+
+.about-pages {
+  width: 100%;
+}
+
+.about-pages div {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.013px solid rgb(230, 230, 230);
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(79,98,165);
+  color: rgb(238, 221, 221);
+}
+
+
+
+.about-pages div>p {
+  align-items: center;
+  width: 80%;
+  font-size: 38px;
+  line-height: 1.2;
+}
+.pr1{
+  color:rgb(238, 221, 221);
+  padding: 0px 285px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+
+}
+.qq:hover{color:black;}
+.pr1:hover{
+  color:black;
+}
+.about-pages div:nth-child(1) {
+  height: 80vh;
+
+}
+
+.about-pages div:nth-child(2) {
+  height: 70vh;
+
+}
+
+.about-pages div:nth-child(3) {
+  height: 10vh;
+
+}
+
+
+.about-pages div:nth-child(3):hover {
+  height: 10vh;
+  background-color: rgb(242, 242, 242);
+  color: black;
+  cursor: pointer;
+}
+
+.about-pages div:nth-child(4) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(4):hover {
+  height: 10vh;
+  background-color: rgb(202,159,57);
+  color: red;
+  cursor: pointer;
+
+}
+
+.about-pages div:nth-child(5) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(5):hover {
+  height: 10vh;
+  background-color: rgb(161,106,191);
+  color: black;
+}
+
+.about-pages div:nth-child(6) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(6):hover {
+  height: 10vh;
+  background-color: rgb(200,43,12);
+  color: black;
+}
+
+.about-pages div:nth-child(7) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(7):hover {
+  height: 10vh;
+  background-color: rgb(236,165,3);
+  color: black;
+}
+
+.about-pages div:nth-child(8) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(8):hover {
+  height: 10vh;
+  background-color: rgb(141,132,109);
+  color: black;
+}
+
+.about-pages div:nth-child(9) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(9):hover {
+  height: 10vh;
+  background-color: rgb(231,228,220);
+  color: black;
+}
+
+.about-pages div:nth-child(10) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(10):hover {
+  height: 10vh;
+  background-color: rgb(34,244,109);
+  color: black;
+}
+
+.about-pages div:nth-child(11) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(11):hover {
+  height: 10vh;
+  background-color: rgb(242, 242, 242);
+  color: black;
+}
+
+.about-pages div:nth-child(12) {
+  height: 10vh;
+}
+
+.about-pages div:nth-child(12):hover {
+  height: 10vh;
+  background-color: rgb(236,104,13);
+  color: black;
+}
+
+.about-pages div:nth-child(13) {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  background-color: rgb(79,98,165);
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content {
+  width: 500px;
+  height: 80px;
+  background-color: rbg(0, 0, 0);
+  border-radius: 4px;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+input[type=text] {
+  width: 90%;
+  border: 0px solid #aaa;
+  border-radius: 4px;
+  height: 1em;
+  margin: 8px 0;
+  font-size: 20pt;
+  outline: none;
+  padding: 40px;
+  box-sizing: border-box;
+  transition: .3s;
+  box-shadow: 0 0 20px 0 rgb(242, 242, 242);
+}
+
+input[type=text]:focus {
+  border-color: rgb(192, 193, 195);
+  box-shadow: 0 0 10px 0 black;
+}
+
+.close {
+  position: absolute;
+  color: rgb(247, 249, 249);
+  top: 0;
+  right: 14px;
+  font-size: 100px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.but{
+  cursor: pointer;
+}
+.tbf{
+  font-size: 15px;
+
+}
